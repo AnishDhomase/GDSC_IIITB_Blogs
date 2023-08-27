@@ -386,6 +386,9 @@ footer .social-media .three img{
     #b2, #b4, #b6{
         padding: 2vh 10vw;
     }
+    .slide .detail .text span{
+        font-size: 13px;
+    }
     
 
 }
