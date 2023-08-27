@@ -35,7 +35,7 @@ a:hover{
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* border: 1px solid red; */
 }
 #landing-page{
@@ -43,7 +43,7 @@ a:hover{
     background-color: rgb(254, 248, 245);
 }
 #blog-section{
-    /*height: 100vh; */
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -95,7 +95,7 @@ nav .logo img{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    overflow-x: visible;
 }
 .intro h1{
     color: rgb(77, 63, 57);
@@ -172,6 +172,8 @@ nav .logo img{
     color: rgb(77, 63, 57);
     font-size: 20px;
     font-weight: 100;
+    margin-bottom: 100px;
+
 
 }
 
@@ -375,7 +377,14 @@ footer .social-media .three img{
         padding: 5vh 3vw;
     }
     #experts{
-       display: none;
+       font-size: 15px;
+       margin-bottom: 20px;
+    }
+    .blogs-item{
+        padding: 2vh 10vw;
+    }
+    #b2, #b4, #b6{
+        padding: 2vh 10vw;
     }
     
 
@@ -445,9 +454,9 @@ footer .social-media .three img{
         padding: 1vw;
         width: 100%;
     }
-    #experts{
+    /* #experts{
         display: none;
-     }
+     } */
 }
 @media screen and (min-width : 680px) and (max-width : 1000px){
     .intro .content{
@@ -458,7 +467,4 @@ footer .social-media .three img{
         padding: 1vw;
         width: 100%;
     }
-    #experts{
-        display: none;
-     }
 }
