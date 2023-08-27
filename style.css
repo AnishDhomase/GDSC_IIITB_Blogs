@@ -19,7 +19,9 @@
     height: 150px;
     
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
     user-select: none;
